@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { VerticalSpace } from "../../components";
-import RecipesHeader from "./RecipesHeader.JSX";
+import RecipesHeader from "./RecipesHeader.jsx";
 import RecipesTable from "./RecipesTable";
 
 const Recipes = () => {
