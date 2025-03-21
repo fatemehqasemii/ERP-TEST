@@ -1,0 +1,62 @@
+body {
+  margin: 50px;
+}
+.table-border {
+  border: 1px solid silver;
+  width: 100%;
+}
+
+.pagination-prev {
+  margin-right: 25px;
+}
+
+.pagination-next {
+  margin-left: 25px;
+}
+
+/* comboBox */
+.ant-select-selector {
+  border: 1px solid rgb(118, 117, 117) !important;
+}
+.ant-select-selection-placeholder {
+  color: rgb(94, 94, 94) !important;
+}
+
+.ant-select-arrow {
+  color: rgb(94, 94, 94) !important;
+}
+
+.ant-select {
+  width: 200px !important;
+}
+
+/* input */
+:where(.css-dev-only-do-not-override-tjsggz).ant-input-outlined {
+  border: 1px solid rgb(118, 117, 117) !important;
+}
+
+.ant-input::placeholder {
+  color: rgb(94, 94, 94) !important;
+}
+
+/* table */
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper .ant-table-cell,
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper
+  .ant-table-tbody
+  > tr
+  > td,
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper tfoot > tr > th,
+:where(.css-dev-only-do-not-override-tjsggz).ant-table-wrapper tfoot > tr > td {
+  padding: 10px 10px !important;
+}
+.ant-table-measure-row {
+  display: none !important;
+}
